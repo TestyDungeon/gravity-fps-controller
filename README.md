@@ -2,7 +2,7 @@
 
 Gravity Character Controller for Unity
 
-![Demo](demo.mp4)
+![Demo](Gifs/demo1.gif)
 
 A custom character controller that allows to have a different gravity directions in specific areas and around spheres.
 

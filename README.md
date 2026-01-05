@@ -1,6 +1,6 @@
 # gravity-fps-controller
 
-#Gravity Character Controller for Unity
+# Gravity Character Controller for Unity
 
 ![Demo](Gifs/demo1.gif)
 

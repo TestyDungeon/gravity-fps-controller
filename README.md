@@ -4,12 +4,12 @@
 
 ![Demo](Gifs/demo1.gif)
 
-A custom character controller that allows to have a different gravity directions in specific areas 
+### A custom character controller that allows for different gravity directions in specific areas 
 
 
 ![Demo](Gifs/demo2.gif)
 
-and around spheres.
+### and around spheres.
 
 ## Features
 - Input handling

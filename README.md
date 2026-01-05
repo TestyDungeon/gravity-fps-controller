@@ -1,10 +1,15 @@
 # gravity-fps-controller
 
-Gravity Character Controller for Unity
+#Gravity Character Controller for Unity
 
 ![Demo](Gifs/demo1.gif)
 
-A custom character controller that allows to have a different gravity directions in specific areas and around spheres.
+A custom character controller that allows to have a different gravity directions in specific areas 
+
+
+![Demo](Gifs/demo2.gif)
+
+and around spheres.
 
 ## Features
 - Input handling

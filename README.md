@@ -1,6 +1,6 @@
 # gravity-fps-controller
 
-# Gravity Character Controller for Unity
+## Gravity Character Controller for Unity
 
 ![Demo](Gifs/demo1.gif)
 
@@ -25,12 +25,15 @@ and around spheres.
 Download the latest .unitypackage which includes scripts, player prefab and a demo scene.
 
 ### Option 2: Manual Installation
-1. Copy all files from the `Scripts/` folder and prefabs.
-2. Paste into your Unity project
-3. Attach `QuakeCharacterController.cs` and `CameraRotation.cs` to your player GameObject with Unity's 'CharacterController' component already on.
+1. Copy all files from the `Scripts/` and 'Prefabs/' folders.
+2. Paste into your Unity project.
+3. Create an object in your scene and add 'Interpolation Controller' script to it.
+4. In Project Settings / Script Execution Order, make sure that 'InterpolationController' is -100, 'InterpolatedTransform' is -50, 'InterpolatedTransformUpdater' is 100.
+5. Add the Player prefab to the scene.
+6. Add the GravityField prefabs to whatever object you want.
 
 ## Requirements
 - Legacy Input Manager (or adapt for New Input System yourself)
 
-## License
+## License 
 MIT License - see LICENSE file

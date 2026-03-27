@@ -1,25 +1,32 @@
-# gravity-fps-controller
+<div align="center">
+<h2> Non-Linear Gravity Character Controller for Unity </h2>
 
-## Gravity Character Controller for Unity
+</div>
+
+## 💡 Overview
+
+
+A custom character controller with custom collision detection and handling, that allows for different gravity directions in specific areas 
+
 
 ![Demo](Gifs/demo1.gif)
 
-### A custom character controller that allows for different gravity directions in specific areas 
+
+and around spheres.
 
 
 ![Demo](Gifs/demo2.gif)
 
-### and around spheres.
 
-## Features
+## ✨ Features
+- Linear and spherical gravity fields
+- Custom player collision using "collide and slide" algorithm
 - Input handling
 - Smooth movement, rotation and jumps
 - Camera rotation system
 - Custom ground detection
-- High customizability
-- Linear and spherical gravity fields
 
-## Installation
+## 🎮 Installation
 
 ### Option 1: Unity Package (Recommended)
 Download the latest .unitypackage which includes scripts, player prefab and a demo scene.

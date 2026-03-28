@@ -26,6 +26,8 @@ and around spheres.
 - Camera rotation system
 - Custom ground detection
 
+! Scripts in FixedInterpolation folder are not mine, but from another open source project !
+
 ## 🎮 Installation
 
 ### Option 1: Unity Package (Recommended)

@@ -57,11 +57,11 @@ public class MovementController : MonoBehaviour
         Vector3 verticalDisp = Vector3.Project(displacement, up);
         Vector3 lateralDisp = displacement - verticalDisp;
 
-        
+        // Calculate the lateral displacement after collisions
         recursionDepth = 0;
         Vector3 resolvedLateral = CollideAndSlide(transform.position, lateralDisp, false);
 
-
+        // Calculate the vertical displacement after collisions. This separation makes moving on slopes and stairs better
         recursionDepth = 0;
         Vector3 resolvedVertical = CollideAndSlide(transform.position + resolvedLateral, verticalDisp, true);
 
@@ -76,8 +76,7 @@ public class MovementController : MonoBehaviour
         return vel;
     }
 
-
-    
+    // Collision detection and handling function
     private Vector3 CollideAndSlide(Vector3 pos, Vector3 vel, bool GravityPass)
     {
         if (recursionDepth > maxRecursion)
